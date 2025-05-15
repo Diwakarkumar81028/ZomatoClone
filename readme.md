@@ -1,1 +1,0 @@
-<img alt="Top Trending Spots" src="https://b.zmtcdn.com/data/collections/684397cd092de6a98862220e8cc40aca_1709810183.png?output-format=webp" 
