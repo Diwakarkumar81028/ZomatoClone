@@ -8,7 +8,7 @@ header{
     padding-right: 13vw;
     display: flex;
     flex-direction: column;
-   background-color: gray;
+   background-color:brown;
    padding-top: 1rem;
    padding-bottom: 1rem;
 }
@@ -29,7 +29,7 @@ header{
     font-size:1.35rem;
     margin-left: 2.5rem;
     border: 0;
-    background-color: gray;
+    background-color:brown;
     cursor: pointer;
 }
 
