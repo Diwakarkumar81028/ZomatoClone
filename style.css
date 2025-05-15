@@ -8,7 +8,7 @@ header{
     padding-right: 13vw;
     display: flex;
     flex-direction: column;
-   background-color:brown;
+   background-color:rgb(227, 217, 217);
    padding-top: 1rem;
    padding-bottom: 1rem;
 }
@@ -29,7 +29,7 @@ header{
     font-size:1.35rem;
     margin-left: 2.5rem;
     border: 0;
-    background-color:brown;
+    background-color:rgb(227, 217, 217);
     cursor: pointer;
 }
 
@@ -218,4 +218,27 @@ header{
 
 main{
     margin-top: 24.6vh;
+}
+
+/* footer */
+footer{
+    display: flex;
+    padding-left: 13vw;
+    padding-right: 13vw;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 10vh;
+    margin-bottom: 6vh;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#copy{
+    padding-left: 10vw;
+    margin-bottom: 5vh;
 }
