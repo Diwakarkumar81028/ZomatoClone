@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding-left: 13vw;
+    padding-right: 13vw;
+    display: flex;
+    flex-direction: column;
+   background-color: gray;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+}
+
+#header1{
+    display: flex;
+    justify-content: space-between;
+}
+
+#header1_1,#header1_2{
+    display: flex;
+}
+
+#zomato{
+    font-size:2.5rem;
+}
+.button{
+    font-size:1.35rem;
+    margin-left: 2.5rem;
+    border: 0;
+    background-color: gray;
+    cursor: pointer;
+}
+
+#search{
+    margin-left: 3.5rem;
+    width: 23vw;
+    padding-left: 1rem;
+    font-size: large;
+    border: 0;
+    border-radius: 0.5em;
+}
+
+#header2{
+    display: flex;
+    margin-top: 2.4rem;
+}
+
+.box{
+    display: flex;
+    margin-right: 5rem;
+    align-items:center;
+}
+
+.image{
+    height: 8vh;
+    width: 8vh;
+}
+
+.dining{
+    font-size:x-large;
+    margin-left: 1rem;
+}
+/* main */
+
+
+#collection{
+    padding-left: 13vw;
+    padding-right: 13vw;
+    background-color: rgb(171, 167, 167);
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+#cl{
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+#collect1{
+    display: flex;
+    justify-content: space-between;
+}
+
+#p1{
+    font-size: 1.2rem;
+}
+
+#p2{
+    font-size:large;
+    color: brown;
+}
+
+
+/* card1 */
+.card{
+    position: relative;
+}
+.imge{
+    height: 35vh;
+    width: 22vw;
+    border-radius: 1em;
+}
+
+.info1{
+    position: absolute;
+    top: 77%;
+    left: 10%;
+    color: wheat;
+    font-size: large;
+}
+
+.info2{
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    color: wheat;
+    font-size: large;
+}
+
+#collect2{
+    display: flex;
+    margin-top: 4vh;
+    gap: 2rem;
+    overflow-x: scroll;
+}
+
+/* part2 */
+#food{
+    font-size: 2rem;
+    margin-left: 13vw;
+    margin-top: 6vh;
+    margin-bottom: 3vh;
+}
+
+.containers{
+    padding-left: 13vw;
+    padding-right: 13vw;
+    display: flex;
+    margin-bottom: 6vh;
+    gap: 1rem;
+}
+
+.cards{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 1rem;
+}
+.img{
+    height: 37vh;
+    width: 22vw;
+    border-radius: 1rem;
+}
+.card4,.card3,.card2,.card1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+}
+
+.card4 >p{
+    color: brown;
+}
+
+.card3>p{
+    color: grey;
+}
+
+.card2 >p{
+    color: gray;
+    font-size: 1rem;
+}
+
+.card1>button{
+    background-color: green;
+    color: white;
+    border: 0;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.card1>p{
+    font-size: 1.1rem;
+}
+
+.offers{
+    font-size: 1.3rem;
+    color: white;
+    background-color: rgba(15, 15, 205, 0.8);
+    padding: 5px;
+    position: absolute;
+    top: 60%;
+    padding-left: 10px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.cards:hover{
+    background-color: rgb(233, 214, 214);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+/* header-->position */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+main{
+    margin-top: 24.6vh;
+}
